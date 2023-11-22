@@ -12,7 +12,7 @@
 
 	<groupId>br.com.game</groupId>
 	<artifactId>games-java</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>games</name>
 	<description>api for games</description>
 	<properties>
