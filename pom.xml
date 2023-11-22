@@ -11,8 +11,8 @@
 	</parent>
 
 	<groupId>br.com.game</groupId>
-	<artifactId>games</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<artifactId>games-java</artifactId>
+	<version>0.0.7-SNAPSHOT</version>
 	<name>games</name>
 	<description>api for games</description>
 	<properties>
