@@ -1,6 +1,6 @@
-package br.com.ForWeb.dao;
+package br.com.forweb.dao;
 
-import br.com.ForWeb.model.GameEntity;
+import br.com.forweb.model.GameEntity;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -19,7 +19,6 @@ public class GameDAO {
     public GameEntity save(GameEntity game) {
         try {
 
-            // Obtenha o próximo ID
             String getIdSql = "SELECT (MAX(id)+1) as nextId FROM games.game_data;";
 
             Statement statement = connection.createStatement();
@@ -27,7 +26,6 @@ public class GameDAO {
             resultSet.next();
             int nextId = resultSet.getInt("nextId");
 
-            // Insira os dados com o ID obtido
             String insertSql = "INSERT INTO game_data (id, category, company, console_type," +
                     " img, new_price, prev_price, reviews, star, title) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
 
@@ -45,7 +43,6 @@ public class GameDAO {
 
             preparedStatement.executeUpdate();
 
-            // Configure o ID gerado no objeto GameEntity
             game.setId(nextId);
 
             preparedStatement.close();

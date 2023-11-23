@@ -12,7 +12,7 @@
 
 	<groupId>br.com.game</groupId>
 	<artifactId>games</artifactId>
-	<version>2.5.4</version>
+	<version>2.5.6</version>
 	<name>games</name>
 	<description>api for games</description>
 	<properties>

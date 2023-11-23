@@ -1,4 +1,4 @@
-package br.com.ForWeb.infra;
+package br.com.forweb.infra;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

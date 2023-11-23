@@ -1,4 +1,4 @@
-package br.com.ForWeb.model;
+package br.com.forweb.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

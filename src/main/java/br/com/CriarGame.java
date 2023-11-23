@@ -1,8 +1,8 @@
 package br.com;
 
-import br.com.ForWeb.model.GameEntity;
-import br.com.ForWeb.dao.GameDAO;
-import br.com.ForWeb.infra.ConnectionFactory;
+import br.com.forweb.model.GameEntity;
+import br.com.forweb.dao.GameDAO;
+import br.com.forweb.infra.ConnectionFactory;
 
 import java.sql.Connection;
 import java.sql.SQLException;
