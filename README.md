@@ -62,7 +62,7 @@
 
 **/games/find/{id}** - Endpoint responsável por buscar um jogo por id no banco de dados
 
-`GET -> http://localhost:9090/games/games/find/{id}`
+`GET -> http://localhost:9090/games/find/{id}`
 
 ## 💻 Configurando o banco de dados MySQL ##
 > Server Host: localhost 
